@@ -1,0 +1,12 @@
+django>=1.9,<1.10
+psycopg2==2.6.1
+gunicorn==19.4.5
+django-cacheops
+celery==3.1.18
+djrill==2.1.0
+djangorestframework==3.3.3
+redis==2.10.5
+opbeat==3.3
+
+channels
+asgi-redis

@@ -1,0 +1,7 @@
+*.pyc
+*.pyo
+.idea/*
+.DS_Store
+requirements/own.pip
+logs/*
+api/public/*
