@@ -7,5 +7,5 @@ channel_routing = [
     # route('websocket.receive', 'chat.consumers.ws_message'),
     # route('websocket.disconnect', 'chat.consumers.ws_disconnect'),
 
-    route_class('apps.chat.consumers.MyConsumer', path=r"^/chat/"),
+    route_class('apps.chat.consumers.ChatConsumer', path=r"^/chat/"),
 ]

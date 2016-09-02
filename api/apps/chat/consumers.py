@@ -13,7 +13,7 @@ from channels.generic import BaseConsumer
 #     Group('chat').discard(message.reply_channel)
 
 
-class MyConsumer(BaseConsumer):
+class ChatConsumer(BaseConsumer):
 
     method_mapping = {
         "websocket.connect": "ws_connect",
